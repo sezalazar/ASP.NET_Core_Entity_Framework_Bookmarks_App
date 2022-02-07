@@ -1,0 +1,27 @@
+## ASP.NET Core with Entity Framework Bookmarks CRUD APP
+
+## Before starting <br>
+Create a database <br>
+```
+> enable-migrations
+> add-migration “Initialsetup”
+> update-database
+```
+
+Setup your database credentials in the .env file <br>
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=cars
+DB_USERNAME={USERNAME}
+DB_PASSWORD={PASSWORD}
+```
+
+Migrate the tables
+```
+php artisan migrate
+```	
+
+## Credits due where credits due…
+Thanks to [Laravel]( https://laravel.com/) for giving me the opportunity to make this tutorial. I would also like to thank the [Tailwind]( https://tailwindcss.com/) developers for giving us an incredible CSS framework which made my life as a content creator, a lot easier.
